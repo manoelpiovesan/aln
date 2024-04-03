@@ -42,6 +42,6 @@ class Decomposicao:
 
 
 # Implementação
-matriz = np.random.randint(1, 10, (14, 14))
+matriz = np.random.randint(-10, 10, (14, 14))
 decomposicao = Decomposicao(matriz)
 decomposicao.visualizador()
